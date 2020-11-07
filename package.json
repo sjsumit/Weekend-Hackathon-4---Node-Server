@@ -1,0 +1,23 @@
+{
+  "name": "weekend-hackathon-4---node-server-main",
+  "version": "1.0.0",
+  "description": "s",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 60000 --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mochawesome": "6.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "^C"
+  }
+}
