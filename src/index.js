@@ -8,7 +8,6 @@ const obj=
     email: 'guestcaredominos@jublfood.com'
 }
 
-
 function handleServer(req, res) {
     if(req.url==='/welcome'){
         res.write("Welcome to Dominos!");
