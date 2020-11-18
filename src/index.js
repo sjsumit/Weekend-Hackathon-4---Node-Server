@@ -9,12 +9,12 @@ const obj=
 }
 
 function handleServer(req, res) {
-    if(req.url==='/welcome'){
+    if(req.url==="/welcome"){
         res.write("Welcome to Dominos!");
         res.statusCode=200;
         res.end();
     }
-    else if(req.url==='/contact'){
+    else if(req.url==="/contact"){
         res.write(JSON.stringify(obj));
         res.statusCode=200;
         res.end();
